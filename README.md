@@ -1,2 +1,3 @@
-# python_project_template
+# Python Project Template
+
 Python project template using docker

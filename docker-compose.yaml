@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - "4000:80"
+    command: tail -f /dev/null # Keep the container running
+    volumes:
+      - .:/app
